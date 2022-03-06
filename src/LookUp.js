@@ -6,6 +6,7 @@
 //   }
 // }
 // }
+
 export default function lookUp(dataObj, keyname) {
   if (keyname.indexOf('.') != -1 && keyname != '.') {
     var names = keyname.split('.')

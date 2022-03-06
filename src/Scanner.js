@@ -20,6 +20,7 @@
      return this.templateStr.substring(pos_backup, this.pos)
    }
    eos() {
+    //  当前指针位置没有在最后一位
      return this.pos >=this.templateStr.length
    }
  }
